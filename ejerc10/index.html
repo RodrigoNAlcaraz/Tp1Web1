@@ -1,20 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 10 - HTML</title>
 </head>
+
 <body>
     <!--10.- Realice una página web que muestre las siguientes tablas:
 ● Una tabla con 3 filas y 3 columnas.
 ● Una tabla con 2 filas y 4 columnas.
-● Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
-tengan 3 celdas.
-● Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
-columna 1 celda y la tercera columna 3 celdas (filas).  -->
+● Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas tengan 3 celdas.
+● Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda columna 1 celda y la tercera columna 3 celdas (filas).  -->
+
+
+    <h1>Ejercicio de Tablas</h1>
+
+
+
+    <section id="Tabla 1">
+        <h2>Tabla 3 filas x 3 columnas</h2>
+        <table border="1px">
+            <tr>
+                <th>C1</th>
+                <th>C2</th>
+                <th>C3</th>
+            </tr>
+            <TR>
+                <td>F2 C1</td>
+                <td>F2 C2</td>
+                <td>F2 C3</td>
+            </TR>
+            <tr>
+                <td>F3 C1</td>
+                <td>F3 C2</td>
+                <td>F3 C3</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>tabla 2 filas y 4 columnas</h2>
+
+        <table border="2PX">
+            <tr>
+                <th>F1 C1</th>
+                <th>F1 C2</th>
+                <th>F1 C3</th>
+                <th>F1 C4</th>
+            </tr>
+            <tr>
+                <td>F2 C1</td>
+                <td>F2 C2</td>
+                <td>F2 C3</td>
+                <td>F2 C4</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>tabla 3: 3 filas, la primera completa y 2 con 3 columnas</h2>
+
+        <table border="1px">
+            <tr>
+            <th colspan="3"> Fila 1 columna unica</th>
+            </tr>
+            <tr>
+                <td>F2 C1</td>
+                <td>F2 C2</td>
+                <td>F2 C3</td>
+            </tr>
+            <tr>
+                <td>F3 C1</td>
+                <td>F3 C2</td>
+                <td>F3 C3</td>
+            </tr>
+
+
+        </table>
+
+    </section>
+
+    <section>
+        <h2>tabla 4 </h2>
+        <table border="1px">
+            <tr>
+                <th rowspan="2">C1</th>
+                <th>C2</th>
+                <th>C3</th>
+            </tr>
+            <TR>
+                
+                <td>F2 C2</td>
+                <td>F2 C3</td>
+            </TR>
+            <tr>
+                
+                <td>F3 C2</td>
+                <td>F3 C3</td>
+            </tr>
+        </table>
+
+    </section>
 
 
 </body>
+
 </html>
